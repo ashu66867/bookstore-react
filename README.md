@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### UI for bookstore application
+## UI project for a bookstore application
 
 
 ### To intsall all the required dependecies
@@ -40,7 +40,7 @@ Builds the app for production to the `build` folder.<br>
 #### Redux, react-redux, redux-toolkit - for managing store, slice and reducers
 
 ### Testing
-React testing-library & Jest have been used for testing
-Unit tests for components and pages in 'src/tests'
-Unit tests for reducers
-Integration tests are not available as I am new to redux-toolkit based components
+React testing-library & Jest have been used for testing.<br>
+Unit tests for components and pages in 'src/tests'.<br>
+Unit tests for reducers.<br>
+Integration tests are not available as I am new to redux-toolkit based components.<br>
