@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## UI project for a bookstore application
 This application fetches data from api endpoint which must be running on http://localhost:5000.<br>
 Link to [bookstore-api-nestjs]( // link here // ) for api projects for the same.
@@ -46,3 +44,6 @@ React testing-library & Jest have been used for testing.<br>
 Unit tests for components and pages in 'src/tests'.<br>
 Unit tests for reducers.<br>
 Integration tests are not available as I am new to redux-toolkit based components.<br>
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
