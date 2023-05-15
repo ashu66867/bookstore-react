@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## UI project for a bookstore application
 This application fetches data from api endpoint which must be running on http://localhost:5000.<br>
-Link to [](bookstore-api-nestjs) for api projects for the same.
+Link to [bookstore-api-nestjs]( // link here // ) for api projects for the same.
 
 ### To intsall all the required dependecies
 
