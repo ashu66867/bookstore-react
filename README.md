@@ -1,6 +1,6 @@
 ## UI project for a bookstore application
 This application fetches data from api endpoint which must be running on http://localhost:5000.<br>
-Link to [bookstore-api-nestjs](https://github.com/ashu66867/bookstore-api-nestjs) for api projects for the same.
+Link to [bookstore-nestjs-api](https://github.com/ashu66867/bookstore-nestjs-api) for api projects for the same.
 
 ### To intsall all the required dependecies
 
