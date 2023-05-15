@@ -1,8 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### What does this application do - UI for bookstore application
+### UI for bookstore application
 
-### To intsall all rhe required dependecies
+
+### To intsall all the required dependecies
 
 ```
 npm install
@@ -35,24 +36,12 @@ npm run build
 Builds the app for production to the `build` folder.<br>
 
 
-# How to run it -
-## Clone the repositary
-## Run script- `npm start`
-## application will open in new browser tab. else open 'http://localhost:3000/
+### Added dependencies
+#### Redux, react-redux, redux-toolkit - for managing store, slice and reducers
 
-# Available Scripts
-## `npm start`
-## `npm test` 
-## `npm test -- --coverage`
-## `npm run build`
-## `npm run eject`
-
-# Added dependencies
-## Redux, react-redux, redux-toolkit - for managing store, slice and reducers
-
-# Testing
-## All test files are placed in 'src/tests'
-## React testing-library & Jest have been used for testing
-## Unit tests for- App, Cart, CartItem, Book
-## Unit tests for CartSlice to test reducers
-## Integration tests are not available as I am new to redux-toolkit based components
+### Testing
+#### All test files are placed in 'src/tests'
+#### React testing-library & Jest have been used for testing
+#### Unit tests for- App, Cart, CartItem, Book
+#### Unit tests for CartSlice to test reducers
+#### Integration tests are not available as I am new to redux-toolkit based components
