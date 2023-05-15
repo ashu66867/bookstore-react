@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 npm install
 ```
 
-## Start the project
+### Start the project
 
 ```
 npm start
@@ -40,8 +40,7 @@ Builds the app for production to the `build` folder.<br>
 #### Redux, react-redux, redux-toolkit - for managing store, slice and reducers
 
 ### Testing
-#### All test files are placed in 'src/tests'
-#### React testing-library & Jest have been used for testing
-#### Unit tests for- App, Cart, CartItem, Book
-#### Unit tests for CartSlice to test reducers
-#### Integration tests are not available as I am new to redux-toolkit based components
+React testing-library & Jest have been used for testing
+Unit tests for components and pages in 'src/tests'
+Unit tests for reducers
+Integration tests are not available as I am new to redux-toolkit based components
