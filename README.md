@@ -32,6 +32,14 @@ Components use 'useSelector' hook to access info from store.<br>
 Components use 'useDispatch' hook to dispatch actions like addToCart, clearCart, etc.<br>
 
 
+### Testing
+React testing-library & Jest have been used for testing.<br>
+Unit tests for components and pages in 'src/tests'.<br>
+Unit tests for reducers.<br>
+Integration tests will be added in the future based on the best practices and avoiding implementation detail.<br>
+
+
+
 ### To intsall all the required dependecies
 
 ```
@@ -74,13 +82,5 @@ redux, react-redux, redux-toolkit // for managing store, slice and reducers. Bas
 ```
 react-router-dom // for routing
 ```
-
-
-### Testing
-React testing-library & Jest have been used for testing.<br>
-Unit tests for components and pages in 'src/tests'.<br>
-Unit tests for reducers.<br>
-Integration tests will be added in the future based on the best practices and avoiding implementation detail.<br>
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
