@@ -1,6 +1,24 @@
 ## UI project for a bookstore application
 This application fetches data from api endpoint which must be running on http://localhost:5000.<br>
-Link to [bookstore-nestjs-api](https://github.com/ashu66867/bookstore-nestjs-api) for api projects for the same.
+Link to [bookstore-nestjs-api](https://github.com/ashu66867/bookstore-nestjs-api) for api endpoints for the same.
+
+### Active functionality
+1. Home page: Add any item to cart.
+2. Cart page: 
+   2.1 Remove any item from cart.
+   2.2 Increment, decrement item count from cart.
+   2.3 Remove all items from cart.
+3. Checkout page: Redirect to home page and clear cart for another shopping session.
+4. On every cart function: Calculate the follwing:
+   4.1 Number of items in cart  Total cost
+   4.2 Total cost of all items in cart
+
+### Approach
+It uses redux to manage a store. 
+Store has a property called 'books' which fetches data when the app loads for the first time only.
+Components use 'useSelector' hook to access info from store.
+Components use 'useDispatch' hook to dispatch actions like addToCart, clearCart, etc.
+
 
 ### To intsall all the required dependecies
 
@@ -37,7 +55,16 @@ Builds the app for production to the `build` folder.<br>
 
 
 ### Added dependencies
-#### Redux, react-redux, redux-toolkit - for managing store, slice and reducers
+```
+redux, react-redux, redux-toolkit
+```
+For managing store, slice and reducers. Based on the latest recommendation form redux team.
+
+```
+react-router-dom
+```
+for routing
+
 
 ### Testing
 React testing-library & Jest have been used for testing.<br>
