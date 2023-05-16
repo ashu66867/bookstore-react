@@ -9,14 +9,14 @@ Link to [bookstore-nestjs-api](https://github.com/ashu66867/bookstore-nestjs-api
    2.2. Increment, decrement item count from cart.<br>
    2.3. Remove all items from cart.<br>
 3. Checkout page: Redirect to home page and clear cart for another shopping session.
-4. On every cart function: Calculate the follwing:<br>
+4. On every cart function: Calculate the following:<br>
    4.1. Number of items in cart.<br>
    4.2. Total cost of all items in cart.<br>
 
 ### Approach
 This app uses redux to manage a global state.<br>
 Redux.js.org recommends splitting up the reducer for a particular feature into single file, known as a "slice". <br>
-So, all the redux code for cart feature is in 'src/features/CartSlice.js'. CartSlice state explained below:
+So, all the redux code for our cart feature is in 'src/features/CartSlice.js'. CartSlice state is explained below:
 ```
 {
     books: [],       // all books- fetches data when the app loads for the first time only
