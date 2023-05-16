@@ -14,11 +14,9 @@ Link to [bookstore-nestjs-api](https://github.com/ashu66867/bookstore-nestjs-api
    4.2. Total cost of all items in cart.<br>
 
 ### Approach
-This app uses redux to manage a global store.<br>
-Redux.js.org recommends splitting up the reducer based on the features. <br>
-The Redux code for a particular feature is usually written as a single file, known as a "slice".<br>
-
-So, all the redux code for cart feature is in 'src/features/CartSlice.js'. CartSlice global state below:
+This app uses redux to manage a global state.<br>
+Redux.js.org recommends splitting up the reducer for a particular feature into single file, known as a "slice". <br>
+So, all the redux code for cart feature is in 'src/features/CartSlice.js'. CartSlice state explained below:
 ```
 {
     books: [],       // all books- fetches data when the app loads for the first time only
