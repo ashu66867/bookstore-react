@@ -34,8 +34,7 @@ Components use 'useDispatch' hook to dispatch actions like addToCart, clearCart,
 
 ### Testing
 React testing-library & Jest have been used for testing.<br>
-Unit tests for components and pages in 'src/tests'.<br>
-Unit tests for reducers.<br>
+Unit tests for components, pages & reducers are placed in 'src/tests'.<br>
 Integration tests will be added in the future based on the best practices and avoiding implementation detail.<br>
 
 
