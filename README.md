@@ -5,13 +5,13 @@ Link to [bookstore-nestjs-api](https://github.com/ashu66867/bookstore-nestjs-api
 ### Active functionality
 1. Home page: Add any item to cart.
 2. Cart page:<br>
-   2.1 Remove any item from cart.<br>
-   2.2 Increment, decrement item count from cart.<br>
-   2.3 Remove all items from cart.<br>
+   2.1. Remove any item from cart.<br>
+   2.2. Increment, decrement item count from cart.<br>
+   2.3. Remove all items from cart.<br>
 3. Checkout page: Redirect to home page and clear cart for another shopping session.
-4. On every cart function: Calculate the follwing:
-   4.1 Number of items in cart.<br>
-   4.2 Total cost of all items in cart.<br>
+4. On every cart function: Calculate the follwing:<br>
+   4.1. Number of items in cart.<br>
+   4.2. Total cost of all items in cart.<br>
 
 ### Approach
 It uses redux to manage a store. 
