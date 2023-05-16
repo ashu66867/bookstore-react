@@ -15,7 +15,16 @@ Link to [bookstore-nestjs-api](https://github.com/ashu66867/bookstore-nestjs-api
 
 ### Approach
 It uses redux to manage a store.<br>
-Store has a property called 'books' which fetches data when the app loads for the first time only.<br>
+Store looks like this:
+```
+{
+    books: [],       // all books- fetches data when the app loads for the first time only
+    cartItems: [],   // info of books in cart
+    totalItems: 0,   // total number of books in cart
+    totalBill: 0,    // total cost of cart items
+    isLoading: true, // helpful to render books when data is loaded
+}
+```
 Components use 'useSelector' hook to access info from store.<br>
 Components use 'useDispatch' hook to dispatch actions like addToCart, clearCart, etc.<br>
 
