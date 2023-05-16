@@ -68,21 +68,19 @@ Builds the app for production to the `build` folder.<br>
 
 ### Added dependencies
 ```
-redux, react-redux, redux-toolkit
+redux, react-redux, redux-toolkit // for managing store, slice and reducers. Based on the latest recommendation form redux team.
 ```
-For managing store, slice and reducers. Based on the latest recommendation form redux team.
 
 ```
-react-router-dom
+react-router-dom // for routing
 ```
-for routing
 
 
 ### Testing
 React testing-library & Jest have been used for testing.<br>
 Unit tests for components and pages in 'src/tests'.<br>
 Unit tests for reducers.<br>
-Integration tests are not available as I am new to redux-toolkit based components.<br>
+Integration tests will be added in the future based on the best practices and avoiding implementation detail.<br>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
